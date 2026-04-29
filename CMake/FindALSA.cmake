@@ -24,6 +24,8 @@
 #      ALSA_LIBRARY     - the asound library
 #      ALSA_VERSION_STRING - the version of alsa found (since CMake 2.8.8)
 
+#Another demo message 
+
 find_path(ALSA_INCLUDE_DIR NAMES alsa/asoundlib.h
           DOC "The ALSA (asound) include directory"
 )
