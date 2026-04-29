@@ -15,6 +15,6 @@ macro(dolphin_disable_warnings _target)
   if (MSVC)
     target_compile_options(${_target} PRIVATE "/W0")
   elseif (CMAKE_CXX_COMPILER_ID MATCHES "Clang" OR CMAKE_CXX_COMPILER_ID MATCHES "GNU")
-    target_compile_options(${_target} PRIVATE "-w")
-  endif()
-endmacro()
+
+
+#Demo message for GH900 class 
